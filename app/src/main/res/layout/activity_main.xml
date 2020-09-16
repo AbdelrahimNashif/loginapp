@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOG IN"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/buttons"
+        />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/buttons"
+        android:ems="10"
+        android:hint=" name"
+android:layout_marginHorizontal="20dp"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/background"
+        android:drawableStart="@drawable/ic_baseline_perm_identity_24"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/buttons"
+        android:ems="10"
+        android:hint=" password"
+        android:layout_marginHorizontal="20dp"
+        android:inputType="textPassword"
+        android:textColorHint="@color/background"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
+        />
+
+    <EditText
+        android:layout_marginHorizontal="20dp"
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/buttons"
+        android:ems="10"
+        android:hint=" email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/background"
+        android:drawableStart="@drawable/ic_baseline_email"
+        />
+
+    <EditText
+        android:layout_marginHorizontal="20dp"
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/buttons"
+        android:ems="10"
+        android:hint=" id"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/background" />
+
+    <CheckBox
+        android:layout_marginHorizontal="20dp"
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF0000"
+        android:buttonTint="@color/buttons"
+        android:checked="false"
+        android:drawableTint="#FFFFFF"
+        android:text="save"
+
+        android:textColor="@color/buttons" />
+
+    <Button
+        android:layout_marginHorizontal="20dp"
+        android:id="@+id/loginbtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/buttons"
+        android:text="log in"
+        android:textColorHint="@color/background" />
+
+    <Button
+        android:layout_marginHorizontal="20dp"
+        android:id="@+id/clearbtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/buttons"
+        android:text="clear"
+        android:textColorHint="@color/background" />
+
+</LinearLayout>
